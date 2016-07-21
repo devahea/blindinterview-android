@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/offerButton"
+        android:title="지원하기"
+        auto:showAsAction="always" />
+
+    <!-- 세팅 버튼 -->
+    <item
+        android:id="@+id/favoriteButton"
+        android:icon="@android:drawable/star_big_off"
+        android:title="favorite"
+        auto:showAsAction="always"/>
+</menu>

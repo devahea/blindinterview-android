@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ahea.blindinterview.android.seek.detail.SeekDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/previewPager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></android.support.v4.view.ViewPager>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="쿠팡"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="쿠팡 로켓배송 담당자 채용"
+                android:textColor="#737070"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/coupang_content" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/coupang_content2" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="기업이 원하는 질문"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                 />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• 자신 성격의 장·단점은 무엇인가요?"
+                android:textColor="#737070"
+                android:textSize="10dp"
+
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• 10년 후 자기 자신의 모습에 관해 이야기한다면?"
+                android:textColor="#737070"
+                android:textSize="10dp"
+
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• 우리 회사가 당신을 뽑아야 하는 이유는 무엇인가?"
+                android:textColor="#737070"
+                android:textSize="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout
+        >
+</ScrollView>

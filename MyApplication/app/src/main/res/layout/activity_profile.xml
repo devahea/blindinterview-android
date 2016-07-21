@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ahea.blindinterview.android.seek.profile.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/profile_introArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/iamge_dummy_profile"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Lucy Adeline"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipising elite. Morbi ac cursus nish, in venenatis est."/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colorPrimary">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Summery"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="italic|bold"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+            
+            <TableLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_margin="5dp"
+                    android:weightSum="1.0">
+
+                    <LinearLayout android:layout_weight="0.2">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="phone"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_weight="0.7">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="000-xxxx-xxxx"
+                            android:textColor="#000000"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_weight="0.1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="open"
+                            android:textColor="#0000ff"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_margin="5dp"
+                    android:weightSum="1.0">
+
+                    <LinearLayout android:layout_weight="0.2">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="address"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_weight="0.7">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx xxxxxx xxxxxxx xxxxxx"
+                            android:textColor="#000000"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_weight="0.1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="closed"
+                            android:textColor="#ff0000"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_margin="5dp"
+                    android:weightSum="1.0">
+
+                    <LinearLayout android:layout_weight="0.2">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="school"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_weight="0.7">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx high school"
+                            android:textColor="#000000"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_weight="0.1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="closed"
+                            android:textColor="#ff0000"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_margin="5dp"
+                    android:weightSum="1.0">
+
+                    <LinearLayout android:layout_weight="0.2">
+                    </LinearLayout>
+                    <LinearLayout android:layout_weight="0.7">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx Univ/Computer Science"
+                            android:textColor="#000000"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_weight="0.1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="closed"
+                            android:textColor="#ff0000"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Category"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="italic|bold"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IT.SOFTWARE"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"
+                 />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#java #spring #android"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                 />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARKETING.CMO"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"
+                 />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#CAM #Global Expence Management #MS-Office"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                 />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
